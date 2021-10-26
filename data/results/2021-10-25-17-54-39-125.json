@@ -1,0 +1,38 @@
+{
+    "results": [
+        {
+            "rt": 1252.8999999985099,
+            "stimulus": "\n  <div class='instructions-container'>\n    <h2 class='instructions-header'>\n      Alternative Uses Task\n    </h2>\n    <p class='instructions'>\n      In this task, you need to come up with alternative uses for a\n      common object.\n    </p>\n\n    <p class='instructions'>\n      When you begin the task, the name of the common object will\n      appear at the top of the screen. Please enter all of the\n      alternative uses you can think of for the object in the text box\n      below, separated by commas. You will have one minute to list\n      all of the uses you can think of.\n    </p>\n\n    <p class='instructions' id='continue' ontouchstart=\"response(32)\">\n      <b>Press the spacebar to continue to an example.</b>\n    </p>\n  </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 0,
+            "time_elapsed": 1258,
+            "internal_node_id": "0.0-0.0"
+        },
+        {
+            "rt": 64721.5,
+            "responses": "{}",
+            "trial_part": "trial",
+            "task": "AU",
+            "item_id": "1_paperclip",
+            "item": 1,
+            "item_type": "critical",
+            "condition": "paperclip",
+            "version": "",
+            "trial_type": "survey-html-form",
+            "trial_index": 1,
+            "time_elapsed": 66485,
+            "internal_node_id": "0.0-1.0-0.0"
+        },
+        {
+            "rt": 557330.6999999955,
+            "stimulus": "\n  <div class='instructions-container'>\n    <h2 class='instructions-header'>\n      Segment Complete\n    </h2>\n    <p class='instructions'>\n      That concludes this segment of the experiment.\n      Press the spacebar to continue to the next segment.\n    </p>\n  </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 2,
+            "time_elapsed": 968980,
+            "internal_node_id": "0.0-2.0"
+        }
+    ],
+    "ppt_id": 125
+}

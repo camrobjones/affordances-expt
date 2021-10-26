@@ -1,0 +1,95 @@
+{
+    "results": [
+        {
+            "rt": 1062.5,
+            "stimulus": "\n             <div class='instructions-container'>\n              <h2 class='instructions-header'>Welcome</h2>\n              <p class='welcome'>Thank you for your interest in this study.</p>\n              <p class='welcome' ontouchstart=\"response(32)\">\n                <b>Press the spacebar to continue</b>\n              </p>\n            </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 0,
+            "time_elapsed": 1065,
+            "internal_node_id": "0.0-0.0"
+        },
+        {
+            "rt": 3300.2999999821186,
+            "responses": "{\"consent\":\"on\"}",
+            "trial_type": "survey-html-form",
+            "trial_index": 1,
+            "time_elapsed": 4374,
+            "internal_node_id": "0.0-1.0"
+        },
+        {
+            "success": true,
+            "trial_type": "fullscreen",
+            "trial_index": 2,
+            "time_elapsed": 6658,
+            "internal_node_id": "0.0-2.0"
+        },
+        {
+            "rt": 935.1999999880791,
+            "stimulus": "\n  <div class='instructions-container'>\n    <h2 class='instructions-header'>\n      Instructions\n    </h2>\n    <p class='instructions'>\n      In this task, you will be read short passages and decide whether\n      the last sentence in the passage makes sense in the context\n      of the whole passage.\n    </p>\n\n    <p class='instructions'>\n      Both sentences will appear on the screen at the same time.\n      Below them you will see a 7 point scale for rating the \n      sentences from 1 (virtual nonsense) to 7 (completely sensible).\n      Click on the scale to indicate your rating and then click the\n      continue button to procede.\n    </p>\n\n    <p class='instructions'>\n      The full experiment will last around 30 minutes.\n    </p>\n\n    <p class='instructions' id='continue' ontouchstart=\"response(32)\">\n      <b>Press the spacebar to continue</b>\n    </p>\n  </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 3,
+            "time_elapsed": 8097,
+            "internal_node_id": "0.0-3.0"
+        },
+        {
+            "rt": 2242.0999999940395,
+            "responses": "{\"affordance-response\":\"5\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "SENSIBILITY",
+            "item_id": "15_nonafforded",
+            "item": 15,
+            "version": "a",
+            "condition": "nonafforded",
+            "trial_type": "survey-html-form",
+            "trial_index": 4,
+            "time_elapsed": 10849,
+            "internal_node_id": "0.0-4.0-0.0",
+            "response": "5"
+        },
+        {
+            "rt": 1665.8999999761581,
+            "responses": "{\"affordance-response\":\"3\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "SENSIBILITY",
+            "item_id": "10_nonafforded",
+            "item": 10,
+            "version": "c",
+            "condition": "nonafforded",
+            "trial_type": "survey-html-form",
+            "trial_index": 5,
+            "time_elapsed": 13023,
+            "internal_node_id": "0.0-4.0-0.1",
+            "response": "3"
+        },
+        {
+            "rt": 1691.2000000178814,
+            "responses": "{\"affordance-response\":\"7\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "SENSIBILITY",
+            "item_id": "12_related",
+            "item": 12,
+            "version": "a",
+            "condition": "related",
+            "trial_type": "survey-html-form",
+            "trial_index": 6,
+            "time_elapsed": 15222,
+            "internal_node_id": "0.0-4.0-0.2",
+            "response": "7"
+        },
+        {
+            "rt": 3394.0999999940395,
+            "stimulus": "\n  <div class='instructions-container'>\n    <h2 class='instructions-header'>\n      Segment Complete\n    </h2>\n    <p class='instructions'>\n      That concludes the sentence completion segment of the experiment.\n      Press the spacebar to continue to the next segment.\n    </p>\n  </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 7,
+            "time_elapsed": 19123,
+            "internal_node_id": "0.0-5.0"
+        }
+    ],
+    "ppt_id": 71
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Magic mobile scaling tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sentence Rating Experiment</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/affordances/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/affordances/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/affordances/favicon/favicon-16x16.png">
+
+    <!-- JSPsych -->
+    <script src="/static/jspsych-6.1.0/jspsych.js"></script>
+    <script src="/static/jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="/static/jspsych-6.1.0/plugins/jspsych-fullscreen.js"></script>
+    <script src="/static/jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="/static/jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
+    <link href="/static/jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+
+    <!-- Axois -->
+    <script src="/static/axios/axios.min.js"></script>
+
+    <!-- Cookies -->
+    <script src="/static/cookies/cookies.min.js"></script>
+
+    <!-- Local CSS -->
+    <link href="/static/affordances/main_v1.css" rel="stylesheet" type="text/css"></link>
+    <link href="/static/affordances/likert.css" rel="stylesheet" type="text/css"></link>
+
+    <!-- Create CSRFToken -->
+    {% csrf_token %}
+
+    {% block head %}
+
+    {% endblock %}
+
+  </head>
+
+  <body>
+
+  <header class='top-bar'>
+    <h1 id='top-bar-title'>
+      Sentence Rating Task
+    </h1>
+
+    <div id='progress-container' class='hide'>
+      <div id='progress-label'>
+        0%
+      </div>
+      <div id='progress-bar-container'>
+        <div id='progress-bar'>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  {% block content %}
+
+  {% endblock %}
+
+  </body>
+</html>

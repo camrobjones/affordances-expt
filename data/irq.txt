@@ -1,0 +1,36 @@
+I often enjoy the use of mental pictures to reminisce 0.785 0.060 0.101 0.086
+I can close my eyes and easily picture a scene that I have experienced 0.753 0.026 0.139 0.096
+My mental images are very vivid and photographic 0.740 0.178 0.230 0.018
+The old saying “A picture is worth a thousand words” is certainly true for me 0.685 0.095 0.066 0.206
+When I think about someone I know well, I instantly see their face in my mind 0.680 0.023 0.120 0.063
+I often use mental images or pictures to help me remember things 0.665 0.097 0.140 0.074
+My memories are mainly visual in nature 0.638 0.046 0.001 0.004
+When traveling to get to somewhere I tend to think more visually than verbally 0.612 0.153 0.010 0.001
+If I talk to myself in my head it is usually accompanied by visual imagery 0.542 0.077 0.332 0.166
+If I imagine my memories visually they are more often static than moving 0.418 0.043 0.137 0.220
+I think about problems in my mind in the form of a conversation with myself 0.141 0.776 0.105 0.014
+If I am walking somewhere by myself, I often have a silent conversation with myself 0.145 0.719 0.068 0.095
+If I am walking somewhere by myself, I frequently think of conversations that I’ve recently had 0.141 0.699 0.132 0.035
+My inner speech helps my imagination 0.156 0.653 0.078 0.103
+I tend to think things through verbally when I am relaxing 0.024 0.650 0.132 0.121
+When thinking about a social problem, I often talk it through in my head 0.135 0.595 0.005 0.043
+I like to give myself some down time to talk through thoughts in my mind 0.298 0.583 0.036 0.342
+I hear words in my "mind’s ear" when I think 0.185 0.559 0.032 0.321
+I rarely vocalize thoughts in my mind * 0.064 0.493 0.307 0.025
+I often talk to myself internally while watching TV 0.062 0.486 0.325 0.103
+My memories often involve conversations I’ve had 0.087 0.486 0.144 0.046
+When I read, I tend to hear a voice in my "mind’s ear" 0.050 0.467 0.001 0.180
+When I hear someone talking, I see words written down in my mind 0.128 0.049 0.789 0.080
+I see words in my "mind’s eye" when I think 0.163 0.081 0.696 0.089
+When I am introduced to someone for the first time, I imagine what their name would look like when written down 0.192 0.054 0.691 0.092
+A strategy I use to help me remember written material is imagining what the writing looks like 0.071 0.057 0.618 0.039
+I hear a running summary of everything I am doing in my head 0.156 0.326 0.616 0.012
+I rehearse in my mind how someone might respond to a text message before I send it 0.038 0.363 0.400 0.132
+I can easily imagine and mentally rotate three-dimensional geometric figures 0.107 0.226 0.064 0.670
+I can easily choose to imagine this sentence in my mind pronounced unnaturally slowly 0.030 0.215 0.146 0.597
+In school, I had no problems with geometry 0.252 0.136 0.216 0.594
+It is easy for me to imagine the sensation of licking a brick 0.160 0.185 0.103 0.530
+I find it difficult to imagine how a three-dimensional geometric figure would exactly look like when rotated 0.158 0.302 0.014 0.526
+I can easily imagine someone clearly talking, and then imagine the same voice with a heavy cold 0.080 0.051 0.183 0.502
+I think I have a large vocabulary in my native language compared to others 0.143 0.181 0.145 0.476
+I can easily imagine the sound of a trumpet getting louder 0.096 0.209 0.031 0.474

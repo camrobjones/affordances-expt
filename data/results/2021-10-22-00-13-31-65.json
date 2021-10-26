@@ -1,0 +1,62 @@
+{
+    "results": [
+        {
+            "rt": 17385.5,
+            "stimulus": "\n  <div class='instructions-container'>\n    <h2 class='instructions-header'>\n      Instructions\n    </h2>\n    <p class='instructions'>\n      In this task, you will be read short passages and decide whether\n      the last sentence in the passage makes sense in the context\n      of the whole passage.\n    </p>\n\n    <p class='instructions'>\n      Both sentences will appear on the screen at the same time.\n      Below them you will see a 7 point scale for rating the \n      sentences from 1 (virtual nonsense) to 7 (completely sensible).\n      Click on the scale to indicate your rating and then click the\n      continue button to procede.\n    </p>\n\n    <p class='instructions'>\n      The full experiment will last around 30 minutes.\n    </p>\n\n    <p class='instructions' id='continue' ontouchstart=\"response(32)\">\n      <b>Press the spacebar to continue</b>\n    </p>\n  </div>",
+            "key_press": 32,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 0,
+            "time_elapsed": 17391,
+            "internal_node_id": "0.0-0.0"
+        },
+        {
+            "rt": 2492.4000000059605,
+            "responses": "{\"affordance-response\":\"4\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "ENVISIONING",
+            "item_id": "6_related",
+            "item": 6,
+            "version": "b",
+            "condition": "related",
+            "trial_type": "survey-html-form",
+            "trial_index": 1,
+            "time_elapsed": 20388,
+            "internal_node_id": "0.0-1.0-0.0",
+            "response": "4"
+        },
+        {
+            "rt": 1715.300000011921,
+            "responses": "{\"affordance-response\":\"3\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "ENVISIONING",
+            "item_id": "3_related",
+            "item": 3,
+            "version": "a",
+            "condition": "related",
+            "trial_type": "survey-html-form",
+            "trial_index": 2,
+            "time_elapsed": 22608,
+            "internal_node_id": "0.0-1.0-0.1",
+            "response": "3"
+        },
+        {
+            "rt": 33361.29999998212,
+            "responses": "{\"affordance-response\":\"6\"}",
+            "trial_part": "trial",
+            "task": "affordance",
+            "scale": "ENVISIONING",
+            "item_id": "12_afforded",
+            "item": 12,
+            "version": "c",
+            "condition": "afforded",
+            "trial_type": "survey-html-form",
+            "trial_index": 3,
+            "time_elapsed": 56473,
+            "internal_node_id": "0.0-1.0-0.2",
+            "response": "6"
+        }
+    ],
+    "ppt_id": 65
+}

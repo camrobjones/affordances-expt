@@ -1,0 +1,126 @@
+Questions
+---------
+
+- General intro (you will do several tasks)?
+
+- Affordances
+    - attention check
+    - examples?
+
+- Mental Rotation
+    - Practice trials?
+
+
+Todo
+----
+
+- db [X]
+    - Ppt [X]
+    - Rating [X]
+        - sensibility
+        - envisioning
+        - irq
+    - BinaryChoice [X]
+        - mental rotation
+    - FreeResponse [X]
+
+- views initial [X]
+    
+    - load data [X]
+        - affordances [X]
+        - irq
+            - add fillers [X]
+            - clean dataset [X]
+        - mr [X]
+
+        - master [X]
+
+    - run expt [X]
+        - load data [X]
+        - create ppt [X]
+        - return page [X]
+
+
+- templates
+
+    - base [X]
+        - move jspsych over [X]
+        - grab CSS/trim? [X]
+        - header "sentence rating" [X]
+
+    - Js
+        - welcome [X]
+        - consent [X]
+
+        - affordances [X]
+            - instructions [X]
+            - trials [X]
+                - fix size of stim [X]
+                - space before continue [X]
+                - fix spaces between sentences [X]
+            - check data [X]
+            - store data [X]
+                - reponse [X]
+                - rt [X]
+            - make ratings easier to click [X]
+            - end screen [X]
+            - progressbar count [X]
+
+        - irq [X]
+            - instructions [X]
+            - trials [X]
+            - store data [X]
+            - end screen [X]
+            - progressbar count [X]
+
+        - mr [X]
+            - instructions [X]
+            - examples [X]
+            - trials [X]
+            - store data [X]
+            - end screen [X]
+            - progressbar count [X]
+
+        - au [X]
+            - instructions [X]
+            - trials [X]
+                - countdown [X]
+                - freeze input [X]
+            - example [X]
+            - store data [X]
+            - end screen [X]
+            - progressbar count [X]
+
+        - demographics [X]
+            - optional qs [X]
+            - css [X]
+            - store [X]
+
+        - debrief [X]
+
+- General
+    - reject non-desktop ppts [X]
+
+    - Check results are saved and SONA response comes through
+    before allowing exit [X]
+
+    - favicon [X]
+
+    - hide code [X]
+
+- Push
+    - setup SONA [X]
+        - change code [X]
+
+    - full test [X]
+
+    - git
+    - db
+    - add secrets.py
+
+
+----
+General solution
+    
+- Expt module
+    - base models 4 inheritance

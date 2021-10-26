@@ -1,0 +1,71 @@
+
+"""
+Sensibility ratings
+"""
+
+- 18 statements
+    - 3 conditions
+    - 7 point scale
+        1 (virtual nonsense) to 7 (completely sensible)
+
+Rating
+    - item_id
+    - version_id
+    - condition
+    - rating
+    - rt
+    - trial_index
+    - trial_type:
+        - catch, critical, filler
+
+"""
+IRQ
+"""
+
+- 40 items
+    - 5 point scale
+        - 1 (Strongly Disagree) to 5 (Strongly Agree)
+        - some items are reverse coded
+
+
+    - 3 attention checks
+        - “The word ‘hotel’ has three letters”
+        - “Elephants are larger than dogs”
+        - “Most people have five legs”.
+
+
+"""
+Mental Rotation
+"""
+
+Stims: https://figshare.com/articles/dataset/A_new_set_of_three_dimensional_stimuli_for_investigating_mental_rotation_processes/1045385?file=1571341
+Paper: https://openpsychologydata.metajnl.com/articles/10.5334/jopd.ai/
+JS: https://github.com/Tuuleh/masters-battery/blob/master/views/mental_rotation.ejs
+
+384 stimuli
+    - based on 48 images rotated through 0, 50, 100, 150 degrees
+    - mirror reversed (R) or not
+
+Ppts give same/diff judgement
+
+binary_choice
+    - task: mental rotation
+    - item: 1-48
+    - version: degrees, reversed
+    - correct_response: T/F
+    - response: T/F
+    - is_correct: T/F (response == correct_response)
+
+
+"""
+Creativity
+"""
+
+Uses for a paperclip
+1 minute
+
+
+
+
+
+

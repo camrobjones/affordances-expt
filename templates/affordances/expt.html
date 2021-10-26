@@ -1,0 +1,44 @@
+{% extends 'affordances/base.html' %}
+
+{% block head %}
+
+<!-- reCAPTCHA -->
+ <script src="https://www.google.com/recaptcha/api.js?render=6Lc8nMwZAAAAAD9VUlj6EX69mgSSJ9ODDVPqrzJe"></script>
+
+{% endblock %}
+
+{% block content %}
+
+<div id='expt-container'>
+
+</div>
+
+<!-- Render django data as JSON scripts -->
+{{ tasks | json_script:"tasks"}}
+{{ conf | json_script:"conf"}}
+
+<script>
+
+// Load Stimuli Data
+const tasks = JSON.parse(document.getElementById('tasks')
+    .textContent);
+
+// Load Config Data
+const conf = JSON.parse(document.getElementById('conf')
+    .textContent);
+
+</script>
+
+<!-- HTML Templates -->
+{% include 'affordances/demographics.html' with handedness=0 languages=0 vision=0 conditions=0 %}
+
+<!-- Local JS -->
+<script src="/static/affordances/expt.js"></script>
+<script src="/static/affordances/affordances.js"></script>
+<script src="/static/affordances/irq.js"></script>
+<script src="/static/affordances/mental_rotation.js"></script>
+<script src="/static/affordances/alternative_uses.js"></script>
+<script src="/static/affordances/demographics.js"></script>
+
+
+{% endblock %}
