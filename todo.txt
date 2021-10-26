@@ -1,15 +1,6 @@
 Questions
 ---------
 
-- General intro (you will do several tasks)?
-
-- Affordances
-    - attention check
-    - examples?
-
-- Mental Rotation
-    - Practice trials?
-
 
 Todo
 ----
@@ -114,10 +105,20 @@ Todo
 
     - full test [X]
 
-    - git
-    - db
-    - add secrets.py
+    - git [X]
+    - add secrets.py [X]
 
+    - django [X]
+        - settings [X]
+        - urls [X]
+        - db [X]
+
+    - test prod [X]
+        - data [X]
+
+    - email
+        - questions
+        - 
 
 ----
 General solution

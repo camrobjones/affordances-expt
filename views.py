@@ -380,9 +380,7 @@ def save_results(request):
 
     ppt.end_time = tz.now()
 
-    status = {"success": True}
-
-    print(ppt.SONA_code)
+    status = {"success": False, "credit": "Not granted"}
 
     # Grant credit
     if ppt.SONA_code != "":
@@ -401,9 +399,7 @@ def save_results(request):
 
         if check_credit_granted(content):
             status["credit"] = "Granted"
-        else:
-            status["success"] = False
-            status["credit"] = "Not granted"
+            status["success"] = True
 
     ppt.save()
 

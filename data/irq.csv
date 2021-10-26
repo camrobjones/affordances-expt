@@ -35,6 +35,6 @@ item_id,item_type,sentence,Visual,Verbal,Orthographic,Manipulation
 34,critical,"I can easily imagine someone clearly talking, and then imagine the same voice with a heavy cold",0.080,0.051,0.183,0.502
 35,critical,I think I have a large vocabulary in my native language compared to others,0.143,0.181,0.145,0.476
 36,critical,I can easily imagine the sound of a trumpet getting louder,0.096,0.209,0.031,0.474
-37,filler,The word ‘hotel’ has three letters,0,0,0,0
-38,filler,Elephants are larger than dogs,0,0,0,0
-39,filler,Most people have five legs,0,0,0,0
+37,catch,The word ‘hotel’ has three letters,0,0,0,0
+38,catch,Elephants are larger than dogs,0,0,0,0
+39,catch,Most people have five legs,0,0,0,0

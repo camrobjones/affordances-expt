@@ -12,7 +12,6 @@ function saveResults() {
   data.ppt_id = conf.ppt_id;
   axios.post(url, data, {headers: headers})
     .then(response => {
-      console.log(response.data);
       let debrief = document.getElementById("debrief");
 
       if (response.data.success) {
@@ -43,6 +42,24 @@ function saveResults() {
           You can then close this window. Thanks again!
         </p>`;
       }
+    }).catch(error => {
+
+        let debrief = document.getElementById("debrief");
+
+        debrief.innerHTML = `
+        <p class='instructions'>
+          Thank you for completing the experiment. 
+        </p>
+
+        <p class='instructions'>
+          Sorry, something went wrong and we were unable to grant your SONA credit
+          automatically. Please send an email to c8jones@ucsd.edu, including
+          your participant ID (${conf.ppt_id}).
+        </p>
+
+        <p class='instructions'>
+          You can then close this window. Thanks again!
+        </p>`;
     });
 }
 
