@@ -402,6 +402,9 @@ window.onload = function() {
                 },
     });
 
+    // Pre-cache MR Images
+    preLoadMRImages();
+
   } else { // or bail out.
         let paragraph = document.getElementById("expt-container");
         paragraph.innerHTML = 

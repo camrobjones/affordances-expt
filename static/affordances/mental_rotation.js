@@ -1,5 +1,11 @@
-/* === IRQ Task === */
+/* === Mental Rotation Task === */
 
+function preLoadMRImages() {
+  let imageList = tasks.mr.map(x => x.path);
+  imageList.push("static/affordances/mental_rotation/1_50.jpg",
+                 "static/affordances/mental_rotation/1_0_R.jpg");
+  imageList.forEach( function(path) { new Image().src="/"+path;} );
+}
 
 // Instructions
 var instructions = {
