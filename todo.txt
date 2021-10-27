@@ -121,9 +121,11 @@ Todo
 
 - Notes
     - 30 mins"" [X]
-    - GR Instr
+    - GR Instr [X]
         - "In this task, you will read short passages and rate how sensible the action described in the last sentence is in the context of the whole passage."
     - G&R catch [ ]
+        - alter filler -> catch in other data
+        - add catches
         - Be sure to read the sentences carefully. On some trials you will be asked to select a specific number. On those trials the correct response is to click on the number indicated.
     - MR
         - example -> practice [ ]
