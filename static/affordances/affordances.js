@@ -12,10 +12,9 @@ var instructions = {
       Sentence Rating Task
     </h2>
     <p class='instructions'>
-      In this task, you will read short passages and rate each passage
-      based on how sensible you think it is.
-      In particular, focus on whether the action described in the last
-      sentence is sensible in the context of the whole passage.
+      In this task, you will read short passages and rate how sensible
+      the action described in the last sentence is in the context of
+      the whole passage.
     </p>
 
     <p class='instructions'>
