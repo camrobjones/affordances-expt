@@ -24,6 +24,12 @@ var instructions = {
       and then click the continue button to procede.
     </p>
 
+    <p class='instructions'>
+      Be sure to read the sentences carefully. On some trials you will
+      be asked to select a specific number. On those trials the correct
+      response is to click on the number indicated.
+    </p>
+
     <p class='instructions' id='continue' ontouchstart="response(32)">
       <b>Press the spacebar to begin</b>
     </p>
