@@ -269,7 +269,7 @@ var generalInstructions = {
     <p class='instructions'>
       Thank you for agreeing to participate in this experiment.
       The experiment is split into 4 different tasks. The whole experiment
-      will last around 20 minutes.
+      will last around 30 minutes.
     </p>
 
     <p class='instructions' id='continue' ontouchstart="response(32)">
