@@ -51,11 +51,14 @@ Helper functions to load and reformat data.
 
 
 def load_affordance_sentences(limit=None):
-    """Load the sentences from G&R 2000 for rating."""
+    """Load the sentences from G&R 2000 for rating.
+
+    Note: passing a limit means getting 3 catches is not guaranteed."""
     df = pd.read_csv("affordances/data/affordance_sentences.csv")
 
     # Select version for each id randomly
-    item_ids = df['item'].unique()  # Get unique ids
+    criticals = df.loc[df["item_type"] == "critical"]  # Only criticals
+    item_ids = criticals['item'].unique()  # Get unique ids
     random.shuffle(item_ids)  # Randomly shuffle
     aff, naf, rel = np.split(item_ids, 3)  # Split into 3
 
@@ -63,7 +66,8 @@ def load_affordance_sentences(limit=None):
     items = pd.concat([
         df.loc[(df["item"].isin(aff)) & (df["condition"] == "afforded")],
         df.loc[(df["item"].isin(naf)) & (df["condition"] == "nonafforded")],
-        df.loc[(df["item"].isin(rel)) & (df["condition"] == "related")]
+        df.loc[(df["item"].isin(rel)) & (df["condition"] == "related")],
+        df.loc[df["item_type"] == "catch"]  # Add catches
     ])
 
     # Randomly shuffle
