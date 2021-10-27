@@ -394,11 +394,12 @@ def save_results(request):
             'experiment_id': SONA_EXPT_ID,
             'credit_token': SONA_CREDIT_TOKEN,
             'survey_code': ppt.SONA_code}
-        url = f"SONA_URL?{urlencode(params)}"
+        url = f"{SONA_URL}?{urlencode(params)}"
 
         # Send request & parse content
         response = requests.get(url)
         content = response.content.decode()
+        print(content)
         ppt.notes = ppt.notes + f"SONA credit response:\n{content}\n"
 
         if check_credit_granted(content):

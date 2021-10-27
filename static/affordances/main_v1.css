@@ -89,18 +89,33 @@ div#expt-container {
     font-size:1.4em;
     margin-bottom:20px;
 }
+/*
+h2.instructions-header, h2.title {
+    font-size: 1.3em;
+    margin: 1.5em 0;
+    font-weight: 600;
+}
+*/
+p.welcome {
+    /*margin-bottom: 1em;*/
+}
 
 p.instructions {
     text-align: justify;
     display: inline-block;
+    /*margin-bottom: 1em;*/
 }
 
 p.instructions.c {
     text-align: center;
     display: block;
 }
+/*
+#continue {
+    margin-top:0.5em;
+}
 
-
+*/
 /* Affordances */
 
 div.question.likert.affordance {
@@ -154,6 +169,33 @@ p.mr-keyhint-label {
     font-size: 1.2em;
     margin-top: 0;
 }
+
+.mr-feedback {
+    position: absolute;
+    top: 210px;
+    left: 300px;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px white;
+    visibility: hidden;
+}
+
+.mr-img-container {
+    position: relative;
+}
+
+#correct {
+    color: #0d920d;
+}
+
+#incorrect {
+    color: #FF0000;
+}
+
+#explanation {
+    visibility: hidden;
+}
+
 
 /* Alternative Uses */
 
