@@ -81,7 +81,7 @@ def load_affordance_sentences(limit=None):
 def load_irq(limit=None):
     """Load the IRQ rating statements.
 
-    Note: limiting will not guarantee filler q's are sampled
+    Note: limiting will not guarantee catch q's are sampled
     """
     df = pd.read_csv("affordances/data/irq.csv")  # Load
     df = df.sample(frac=1)  # Randomly shuffle
@@ -91,7 +91,7 @@ def load_irq(limit=None):
     return items
 
 
-def load_mr(limit=15, fillers=3):
+def load_mr(limit=15, catches=3):
     """Load the Mental Rotation stimuli."""
     limit = 47 if limit is None else limit
 
@@ -130,16 +130,16 @@ def load_mr(limit=15, fillers=3):
             "path": path
             })
 
-    # Create fillers (not reversed, 0 rotation)
-    filler_indices = random.choices(range(2, 49), k=fillers)
-    for item_index in filler_indices:
+    # Create catchess (not reversed, 0 rotation)
+    catch_indices = random.choices(range(2, 49), k=catches)
+    for item_index in catch_indices:
 
         # Create item id
         item_id = f"{item_index}_0"
 
         items.append({
             "item": item_index,
-            "item_type": "filler",
+            "item_type": "catch",
             "reversed": False,
             "rotation": 0,
             "item_id": item_id,
@@ -147,7 +147,7 @@ def load_mr(limit=15, fillers=3):
             "path": f"static/affordances/mental_rotation/{item_id}.jpg"
             })
 
-    # Randomly assign fillers
+    # Randomly assign catches
     random.shuffle(items)
 
     return items
@@ -451,9 +451,7 @@ def expt(request):
     """Return experiment view.
 
     GET Args:
-        n (int): Max no. experimental items
-        mode (str): Key for experiment type
-        fillers (bool): Flag. Include fillers?
+        {affordance, irq, mr, au}: set n limits for tasks
     """
     # Create ppt
     ppt = init_ppt(request)
